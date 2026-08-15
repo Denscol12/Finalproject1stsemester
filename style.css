@@ -52,6 +52,7 @@ a{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     transition: 0.4s;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 .button:hover{
@@ -62,6 +63,7 @@ a{
     background-color: rgb(155, 153, 153);
     font-size: 30px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .button-hero2{
@@ -103,13 +105,7 @@ a{
     margin-top: 5px;
     padding: 10px ;
     justify-content: space-between;
-    transition: 0.45s;
 }
-
-.imgartc:hover{
-    transform:scale(1.05) ;
-}
-
 
 .section_title{
     color:aliceblue;
@@ -190,6 +186,7 @@ a{
     width: 22%;
     padding: auto;
     border-radius: 30px;
+    box-shadow: 8px 10px 10px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -234,4 +231,57 @@ a{
     justify-content: center;
     max-width: 1190;
     gap: 30px;
+}
+
+.form-flex{
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.form_input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+
+.join_submit{
+    margin-left: 35px;
+}
+
+
+.footer{
+    background-color: rgb(34, 34, 34);
+    height: 20%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contacts{
+    display: flex;
+    align-items: flex-start; 
+    color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+}
+
+.linkfooter{
+    display: flex;
+    align-items: flex-start; 
+    color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.formtext{
+    color:aliceblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+
+.contacts-footer{
+    display: flex;
+    flex-direction: row;
 }

@@ -73,12 +73,64 @@
             </div>
             <div class="cardcontainer1">
             <div class="image-box1">
-                    <img class="card_image card1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY-OkhQm1SuC_ldt2os_1PeomLg4W4pD9DbsvirCuhSA&s">
-                    <img class="card_image card2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLqGQxWXZChuVYuqWupW8RIh8hijY6fLsW-j-EU4p6A&s=10">
-                    <img class="card_image card3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYMh31YaF_DbxP5Lsb4g6Qgy2MNfvlr7LxIO3matl-oQ&s=10">
+                    <a href="https://assettocorsa.gg/assetto-corsa-rally/" target="_blank">
+                        <img class="card_image card1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY-OkhQm1SuC_ldt2os_1PeomLg4W4pD9DbsvirCuhSA&s">
+                    </a>
+                    <a href="https://www.iracing.com/" target="_blank">    
+                        <img class="card_image card2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDLqGQxWXZChuVYuqWupW8RIh8hijY6fLsW-j-EU4p6A&s=10">
+                    </a>
+                    <a href="https://lemansultimate.com/" target="_blank">
+                        <img class="card_image card3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYMh31YaF_DbxP5Lsb4g6Qgy2MNfvlr7LxIO3matl-oQ&s=10">
+                    </a>
                 </div>
             </div>
         </section>
+    
+
+    <h1 class="text">Join the group</h1>
+    <p class="paragragh">Build and test tracks, design liveries or even participate in the FIA world sim racing champoinship!</p>
+    <form>
+
+    <div class="form-flex">
+        <h2 class="text">Personal information</h2>
+
+        <label for="name" class="formtext">Name: </label>
+        <input class="form_input" type="text" id="name" name="name"  minlength="2" maxlength="100" required pattern="[A-Za-zА-Яа-яЁёЇїІіЄє\s]+" >
+
+        <label for="email" class="formtext">Email: </label>
+        <input class="form_input" type="email" id="email" name="email" required>
+
+        <label for="user-password" class="formtext">Password: </label>
+        <input class="form_input" type="password" id="password" name="password" required>
+
+        <label for="birthdate" class="formtext">Date of Birth: </label>
+        <input class="form_input" type="date" id="birthdate" name="birthdate" required>
+
+        <h2 class="text">Choose your region:</h2>
+        <select class="form_input" id="region" name="region" required>
+            <option value="" disabled selected>...</option>
+            <option value="Europe">Europe</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+        </select>
+
+        <button class="button join_submit" type="submit"> Join! </button>
+    </div>
+    </form>
     </main>
+    <footer class="footer">
+
+        <h4 class="contacts">Contacts</h4>
+
+        <div class="contacts-footer"
+        <ul>
+            <li class="linkfooter"><a href="Instagram">Instagram</a></li>
+            <li class="linkfooter"><a href="TikTok">TikTok</a></li>
+            <li class="linkfooter"><a href="Youtube">Youtube</a></li>
+        </ul>
+        
+    </footer>
+
+
 </body>
 </html>
